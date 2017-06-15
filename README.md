@@ -8,7 +8,7 @@ Given a time as hours and minutes (using a 12-hour clock), calculates the angle 
 
 For instance, at 2:00 the angle is 60°.
 
-Done on : Calculation and result display using Java Script | Page UI using Html, CSS , JS
+Technologies : Calculation and result display using Java Script | Page UI using Html, CSS , JS
 
 Calculation reference credit : https://en.wikipedia.org/wiki/Clock_angle_problem
 
