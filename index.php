@@ -89,11 +89,11 @@
 
 				{
 					time = $('#timepicker1').val();  // get value from the timepicker
-     			    arr = time.split(':');   // split the value keeping : as seperator to get hours and minutes
+     			    arr = time.split(':');   // split the value keeping : as separator to get hours and minutes
      			    hour = $.trim(arr[0]);
 					min = $.trim(arr[1]);
-					var c= 0.5*((60*hour)-(11*min));  // caclutaing the degree using formula |0.5*(60*hours-11*minutes)|
-					var angle = Math.abs(c);  // convert to positve value to avoid negative operator in following steps
+					var c= 0.5*((60*hour)-(11*min));  // calculating the degree using formula |0.5*(60*hours-11*minutes)|
+					var angle = Math.abs(c);  // convert to positive value to avoid negative operator in following steps
 					
 					if (Number(angle)>180) {  // check if angle is greater than 180 degrees 
                      var cnew= 360-angle;  // if greater than then subtract from 360 degree
